@@ -13,7 +13,7 @@ export const Container = styled.header`
   color: ${({theme}) => theme.colors.purple_1};
 
   > div{
-    margin-left: 27.6rem;
+    margin-left: 31.6rem;
   }
 
   > img {

@@ -14,7 +14,7 @@ export const Container = styled.section`
 `
 
 export const Modal = styled.dialog`
-  min-width: 100%;
+  width: 100%;
   height: 100%;
   border: none;
 

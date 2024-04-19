@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  width: 384px;
-  height: 36px;
+  width: 38.4rem;
+  height: 3.6rem;
 
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@ export const Container = styled.section`
 
   > button {
     box-shadow: 1px 1px 3px 1px #ec9c7c;
-    border-radius: 24px;
+    border-radius: 2.4rem;
     border: none;
     width: 100%;
     height: 100%;
@@ -27,9 +27,9 @@ export const Container = styled.section`
 
 export const ModalControl = styled.button`
   position: absolute;
-  width: 18px !important;
-  height: 18px !important;
-  right: 15px;
+  width: 1.8rem !important;
+  height: 1.8rem !important;
+  right: 1.5rem;
   z-index: 2;
 
   box-shadow: none !important;
