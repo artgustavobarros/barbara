@@ -5,7 +5,9 @@ export const Container = styled.main`
   height: 100vh;
   background-color: ${({theme}) => theme.colors.purple_background};
 
-  padding: 48px 24px;
+  padding: 24px;
+  
+  position: relative;
 `
 
 export const Content = styled.section`

@@ -4,11 +4,33 @@ export const Container = styled.section`
   width: 240px;
   height: 24px;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all .3s ease-in-out;
+
+  position: relative;
+
+  &:hover, &:focus{
+    transform: scale(1.05);
+  }
+
   > button {
-    width: 100%;
-    height: 100%;
+    box-shadow: 1px 1px 3px 1px #ec9c7c;
     border-radius: 24px;
     border: none;
-    box-shadow: 1px 1px 3px 1px #ec9c7c;
+    width: 100%;
+    height: 100%;
   }
+`
+
+export const ModalControl = styled.button`
+  position: absolute;
+  width: 18px !important;
+  height: 18px !important;
+  right: 15px;
+  z-index: 2;
+
+  box-shadow: none !important;
 `

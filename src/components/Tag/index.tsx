@@ -1,4 +1,4 @@
-import { Container } from "./styles"
+import { Container, ModalControl } from "./styles"
 
 const Tag = () =>{
   return(
@@ -8,6 +8,7 @@ const Tag = () =>{
           youtube.com
         </a>
       </button>
+      <ModalControl>...</ModalControl>
     </Container>
   )
 }

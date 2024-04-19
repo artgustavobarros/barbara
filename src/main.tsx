@@ -4,13 +4,16 @@ import GlobalStyles from './styles/global'
 import Main from './pages/Main'
 import { ThemeProvider } from 'styled-components'
 import themes from './styles/themes'
+import ModalProvider from './assets/hook/useModalContext'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ThemeProvider theme={themes}>
-      <GlobalStyles/>
-      <Main/>
-    </ThemeProvider>
+    <ModalProvider>
+      <ThemeProvider theme={themes}>
+        <GlobalStyles/>
+        <Main/>
+      </ThemeProvider>
+    </ModalProvider>
   </React.StrictMode>,
 )
