@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  width: 240px;
-  height: 24px;
+  width: 384px;
+  height: 36px;
 
   display: flex;
   align-items: center;

@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   *, body{
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
   }
 
   a, button {

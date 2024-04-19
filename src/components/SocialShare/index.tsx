@@ -1,16 +1,19 @@
 import { EmailIcon, EmailShareButton, FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, TwitterShareButton, WhatsappIcon, WhatsappShareButton, XIcon } from "react-share"
 import { Container, Content, FirstLine, Modal } from "./styles"
-import { useModal } from "../../assets/hook/useModalContext/useContext"
-
-const shareUrl = '#'
+import { useModal } from "../../hook/useModalContext/useContext"
 
 const SocialShare = () =>{
 
- const {isModalOpen, setIsModalOpen} = useModal()
+ const {isModalOpen, setIsModalOpen, shareUrl, setShareUrl} = useModal()
+
+ const handleModalToOpen = () =>{
+  setIsModalOpen(true)
+  setShareUrl('#')
+ }
  
   return(
     <Container>
-      <button onClick={() =>setIsModalOpen(true)}>...</button>
+      <button onClick={handleModalToOpen}>...</button>
       <Modal open={isModalOpen}>
         <FirstLine>
           <h1>Compartilhe</h1>

@@ -1,14 +1,24 @@
+import { useModal } from "../../hook/useModalContext/useContext"
 import { Container, ModalControl } from "./styles"
+import { TagProps } from "./types"
 
-const Tag = () =>{
+const Tag = ({url, description}: TagProps) =>{
+
+  const {setIsModalOpen, setShareUrl}= useModal()
+
+  const handleModalToOPen = (url: string) =>{
+    setIsModalOpen(true)
+    setShareUrl(url)
+  }
+
   return(
     <Container>
       <button>
-        <a href="https://www.youtube.com/@OxenteSoltaosCachos?si=eNxR__qL5jQ8EUgz" target="_blank">
-          youtube.com
+        <a href={url} target="_blank">
+          {description}
         </a>
       </button>
-      <ModalControl>...</ModalControl>
+      <ModalControl onClick={() => handleModalToOPen(url)}>...</ModalControl>
     </Container>
   )
 }

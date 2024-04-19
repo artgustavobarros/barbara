@@ -18,3 +18,9 @@ export const Content = styled.section`
   align-items: center;
   justify-content: center;
 `
+
+export const Wrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+`

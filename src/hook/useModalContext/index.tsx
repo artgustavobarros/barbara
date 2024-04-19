@@ -6,11 +6,12 @@ export const ModalContext = createContext({})
 const ModalProvider = ({children}: ModalContextProps) =>{
 
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const [shareUrl, setShareUrl] = useState('#')
 
   return(
     <ModalContext.Provider
       value={{
-        isModalOpen, setIsModalOpen
+        isModalOpen, setIsModalOpen, shareUrl, setShareUrl
       }}
     >
       {children}

@@ -4,7 +4,8 @@ import GlobalStyles from './styles/global'
 import Main from './pages/Main'
 import { ThemeProvider } from 'styled-components'
 import themes from './styles/themes'
-import ModalProvider from './assets/hook/useModalContext'
+import ModalProvider from './hook/useModalContext'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
