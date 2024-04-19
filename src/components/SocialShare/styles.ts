@@ -4,10 +4,11 @@ export const Container = styled.section`
   > button{
     background-color: transparent;
     border: none;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: bold;
     border-radius: 50%;
-    padding: 8px;
+    padding: .8rem;
+    margin-left: 3rem;
     box-shadow: 1px 1px 3px 1px #ec9c7c; 
   }
 `
@@ -26,40 +27,40 @@ export const Modal = styled.dialog`
 `
 
 export const FirstLine = styled.div`
-  height: 60px;
-  width: 400px;
+  height: 6rem;
+  width: 40rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  margin-top: 64px;
+  margin-top: 6.4rem;
   color: ${({theme}) => theme.colors.purple_1};
 
   > button{
     background-color: transparent;
     border: none;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: bold;
     color: ${({theme}) => theme.colors.purple_1};
     position: fixed;
-    right: 60px;
+    right: 6rem;
   }
 `
 
 export const Content = styled.div`
-  margin-top: 24px;
+  margin-top: 2.4rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 24px;
+  gap: 2.4rem;
 
   .share {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: .8rem;
 
-    margin-left: 60px;
+    margin-left: 6rem;
 
     transition: all .3s ease-in-out;
 

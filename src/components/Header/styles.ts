@@ -8,17 +8,17 @@ export const Container = styled.header`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 2.4rem;
 
   color: ${({theme}) => theme.colors.purple_1};
 
   > div{
-    margin-left: 350px;
+    margin-left: 27.6rem;
   }
 
   > img {
-    width: 96px;
-    height: 96px;
+    width: 9.6rem;
+    height: 9.6rem;
     border-radius: 50%;
   }
 
@@ -26,13 +26,7 @@ export const Container = styled.header`
     color: ${({theme}) => theme.colors.purple_1};
 
     h1{
-    font-size: 24px;
+    font-size: 2.4rem;
     }
   }
-
-  /* > div{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-  } */
 `

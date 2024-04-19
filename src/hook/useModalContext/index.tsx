@@ -6,7 +6,7 @@ export const ModalContext = createContext({})
 const ModalProvider = ({children}: ModalContextProps) =>{
 
   const [isModalOpen, setIsModalOpen] = useState(false)
-  const [shareUrl, setShareUrl] = useState('#')
+  const [shareUrl, setShareUrl] = useState('https://oxentesoltaoscachos.netlify.app/')
 
   return(
     <ModalContext.Provider

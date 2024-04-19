@@ -5,13 +5,13 @@ export const Container = styled.main`
   height: 100vh;
   background-color: ${({theme}) => theme.colors.purple_background};
 
-  padding: 24px;
+  padding: 2.4rem;
   
   position: relative;
 `
 
 export const Content = styled.section`
-  margin-top: 24px;
+  margin-top: 2.4rem;
   
   display: flex;
   flex-direction: column;
@@ -22,5 +22,5 @@ export const Content = styled.section`
 export const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 2.4rem;
 `

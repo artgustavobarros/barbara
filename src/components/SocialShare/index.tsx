@@ -8,7 +8,7 @@ const SocialShare = () =>{
 
  const handleModalToOpen = () =>{
   setIsModalOpen(true)
-  setShareUrl('#')
+  setShareUrl('https://oxentesoltaoscachos.netlify.app/')
  }
  
   return(

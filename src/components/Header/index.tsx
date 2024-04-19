@@ -7,7 +7,7 @@ const Header = () =>{
     <Container>
       <div>
         <SocialShare/>
-    </div>
+      </div>
      <img
           src={logo}
           alt='logo'
