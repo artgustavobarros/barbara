@@ -16,17 +16,18 @@ export const Container = styled.section`
     transform: scale(1.05);
   }
 
-  > button {
+  > a {
     box-shadow: 1px 1px 3px 1px #ec9c7c;
     border-radius: 2.4rem;
     border: none;
     width: 100%;
     height: 100%;
-
-    a {
-      text-decoration: none;
-      color: ${({theme}) => theme.colors.purple_1};
-    }
+    text-decoration: none;
+    color: ${({theme}) => theme.colors.purple_1};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
   }
 `
 
@@ -38,4 +39,6 @@ export const ModalControl = styled.button`
   z-index: 2;
 
   box-shadow: none !important;
+  background-color: transparent;
+  border: none;
 `

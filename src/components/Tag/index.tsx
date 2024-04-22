@@ -13,12 +13,10 @@ const Tag = ({url, description}: TagProps) =>{
 
   return(
     <Container>
-      <button>
         <a 
           href={url} target="_blank">
-          {description}
+            {description}
         </a>
-      </button>
       <ModalControl onClick={() => handleModalToOPen(url)}>...</ModalControl>
     </Container>
   )
