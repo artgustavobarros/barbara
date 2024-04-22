@@ -22,6 +22,11 @@ export const Container = styled.section`
     border: none;
     width: 100%;
     height: 100%;
+
+    a {
+      text-decoration: none;
+      color: ${({theme}) => theme.colors.purple_1};
+    }
   }
 `
 

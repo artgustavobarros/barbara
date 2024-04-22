@@ -10,6 +10,7 @@ const SocialShare = () =>{
   setIsModalOpen(true)
   setShareUrl('https://oxentesoltaoscachos.netlify.app/')
  }
+
  
   return(
     <Container>

@@ -24,6 +24,11 @@ export const Modal = styled.dialog`
 
   backdrop-filter: blur(4px);
   background-color: rgba(255, 255, 255, 0.3);  
+
+  display: ${({open}) => open? 'flex': 'none'};
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
 `
 
 export const FirstLine = styled.div`
@@ -45,7 +50,7 @@ export const FirstLine = styled.div`
     color: ${({theme}) => theme.colors.purple_1};
     position: fixed;
     right: 6rem;
-  }
+    }
 `
 
 export const Content = styled.div`
