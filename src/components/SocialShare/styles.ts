@@ -34,6 +34,7 @@ export const Modal = styled.dialog`
 export const FirstLine = styled.div`
   height: 6rem;
   width: 40rem;
+  border: 1px solid red;
 
   display: flex;
   align-items: center;
@@ -48,8 +49,6 @@ export const FirstLine = styled.div`
     font-size: 1.8rem;
     font-weight: bold;
     color: ${({theme}) => theme.colors.purple_1};
-    position: fixed;
-    right: 6rem;
     }
 `
 

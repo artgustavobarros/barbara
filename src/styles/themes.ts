@@ -5,7 +5,7 @@ const themes = {
     beige_3: '#d9bdb2',
     purple_1: '#781960',
     purple_2: '#a4528e',
-    purple_background: 'rgba(164, 82, 142, 0.4)'
+    purple_background: '#AD6B7F'
   }
 }
 
